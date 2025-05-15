@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class clonaCubos : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject cuboPrefab;
     void Start()
     {
-        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+
+    public void ClonarCubo()
+    {
+        Instantiate(cuboPrefab);
+
     }
 }
